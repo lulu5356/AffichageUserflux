@@ -1,3 +1,6 @@
 [submodule "Userflux"]
 	path = Userflux
 	url = https://github.com/lulu5356/Userflux.git
+[submodule "Spatial"]
+	path = Spatial
+	url = https://github.com/lulu5356/Spatial.git
