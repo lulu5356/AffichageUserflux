@@ -1,0 +1,3 @@
+[submodule "Userflux"]
+	path = Userflux
+	url = https://github.com/lulu5356/Userflux.git
