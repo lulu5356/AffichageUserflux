@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffichageUserflux", "AffichageUserflux\AffichageUserflux.csproj", "{96B319B0-9EAC-4001-BE24-9E7566C11D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spatial", "..\Spatial\Spatial\Spatial.csproj", "{11EC8179-886F-4670-8EF3-1BAE61C31B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Userflux", "..\Userflux\Userflux\Userflux\Userflux.csproj", "{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{96B319B0-9EAC-4001-BE24-9E7566C11D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B319B0-9EAC-4001-BE24-9E7566C11D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96B319B0-9EAC-4001-BE24-9E7566C11D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EC8179-886F-4670-8EF3-1BAE61C31B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EC8179-886F-4670-8EF3-1BAE61C31B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EC8179-886F-4670-8EF3-1BAE61C31B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EC8179-886F-4670-8EF3-1BAE61C31B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
