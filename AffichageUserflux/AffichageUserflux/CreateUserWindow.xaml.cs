@@ -10,26 +10,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Userflux;
 
 namespace AffichageUserflux
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CreateUserWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CreateUserWindow : Window
     {
-        public MainWindow()
+        public CreateUserWindow()
         {
             InitializeComponent();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            User u = new User();
+            u.Login = this.login.Text;
+            u.Password = this.password.Text;
+            u.Firstname = this.firstname.Text;
+            u.Lastname = this.lastname.Text;
+
             Mysql bdd = new Mysql();
-            User loggedUser = bdd.getUser(this.textBox.Text, this.passwordBox.Password);
+            bdd.AddUser(u);
 
             CreateUserWindow createUser = new CreateUserWindow();
             createUser.Show();
