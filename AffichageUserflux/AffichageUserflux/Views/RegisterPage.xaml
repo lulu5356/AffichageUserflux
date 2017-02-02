@@ -1,11 +1,13 @@
-﻿<Window x:Class="AffichageUserflux.CreateUserWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AffichageUserflux"
-        mc:Ignorable="d"
-        Title="CreateUserWindow" Height="300" Width="300">
+﻿<Page x:Class="AffichageUserflux.Views.RegisterPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AffichageUserflux.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="RegisterPage">
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -27,6 +29,6 @@
         <Label x:Name="label1" Content="Lastname" HorizontalAlignment="Left" Margin="10,21,0,0" Grid.Row="3" VerticalAlignment="Top" Width="77"/>
         <Label x:Name="label2" Content="Password" HorizontalAlignment="Left" Margin="10,18,0,0" Grid.Row="1" VerticalAlignment="Top" Width="77" RenderTransformOrigin="0.519,-0.141"/>
         <Label x:Name="label3" Content="Login" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Width="77"/>
-        <Button x:Name="button" Content="Register" Grid.Column="1" HorizontalAlignment="Left" Margin="10,25,0,0" Grid.Row="4" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button" Content="Register" Grid.Column="1" HorizontalAlignment="Left" Margin="10,25,0,0" Grid.Row="4" VerticalAlignment="Top" Width="78" />
     </Grid>
-</Window>
+</Page>
