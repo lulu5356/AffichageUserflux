@@ -78,10 +78,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ShowdataWindow.xaml.cs">
-      <DependentUpon>ShowdataWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ViewModels\AddDataModel.cs" />
+    <Compile Include="ViewModels\AddDataViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="Views\AddDataPage.xaml.cs">
@@ -97,10 +94,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ShowdataWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\AddDataPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -115,7 +108,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mysql.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -147,6 +139,10 @@
     <ProjectReference Include="..\..\Userflux\Userflux\Userflux\Userflux.csproj">
       <Project>{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}</Project>
       <Name>Userflux</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DB\DB.csproj">
+      <Project>{AF8D09D0-024A-4DDB-99ED-594B67125D4F}</Project>
+      <Name>DB</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spatial", "..\Spatial\Spati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Userflux", "..\Userflux\Userflux\Userflux\Userflux.csproj", "{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{AF8D09D0-024A-4DDB-99ED-594B67125D4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C153A6-1BDA-4C7A-B63A-CC0479A642FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8D09D0-024A-4DDB-99ED-594B67125D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8D09D0-024A-4DDB-99ED-594B67125D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8D09D0-024A-4DDB-99ED-594B67125D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8D09D0-024A-4DDB-99ED-594B67125D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

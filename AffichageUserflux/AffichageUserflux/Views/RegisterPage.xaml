@@ -20,6 +20,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <TextBox x:Name="login" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
         <TextBox x:Name="password" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,21,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
@@ -29,6 +30,7 @@
         <Label x:Name="label1" Content="Lastname" HorizontalAlignment="Left" Margin="10,21,0,0" Grid.Row="3" VerticalAlignment="Top" Width="77"/>
         <Label x:Name="label2" Content="Password" HorizontalAlignment="Left" Margin="10,18,0,0" Grid.Row="1" VerticalAlignment="Top" Width="77" RenderTransformOrigin="0.519,-0.141"/>
         <Label x:Name="label3" Content="Login" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Width="77"/>
-        <Button x:Name="button" Content="Register" Grid.Column="1" HorizontalAlignment="Left" Margin="10,25,0,0" Grid.Row="4" VerticalAlignment="Top" Width="78" />
+        <Button x:Name="button" Content="Register" Grid.Column="1" HorizontalAlignment="Left" Margin="12,18,0,0" Grid.Row="5" VerticalAlignment="Top" Width="78" />
+        <Label x:Name="label4" Content="Roles" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="80"/>
     </Grid>
 </Page>

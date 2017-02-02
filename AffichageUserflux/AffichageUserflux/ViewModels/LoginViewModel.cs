@@ -5,7 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Navigation;
 using Userflux;
+using DB;
 
 namespace AffichageUserflux.ViewModels
 {
@@ -25,9 +27,9 @@ namespace AffichageUserflux.ViewModels
             Mysql bdd = new Mysql();
             User loggedUser = bdd.getUser(loginpage.textBox.Text, loginpage.passwordBox.Password);
 
-            RegisterViewModel register = new RegisterViewModel();
+            loginpage.NavigationService.Navigate(new AddDataPage(loggedUser));
 
-            ////throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         private User _user;

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DB;
 using Userflux;
 using System.Windows;
 
@@ -28,6 +29,8 @@ namespace AffichageUserflux.ViewModels
 
             Mysql bdd = new Mysql();
             bdd.AddUser(user);
+
+            registerpage.NavigationService.Navigate(new RegisterPage());
 
             throw new NotImplementedException();
         }
