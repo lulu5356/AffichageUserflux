@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Userflux", "..\Userflux\Use
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{AF8D09D0-024A-4DDB-99ED-594B67125D4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUserFlux", "ConsoleUserFlux\ConsoleUserFlux.csproj", "{B08D3F9E-9188-4BA3-8873-DEF0C36A2E2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AF8D09D0-024A-4DDB-99ED-594B67125D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8D09D0-024A-4DDB-99ED-594B67125D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8D09D0-024A-4DDB-99ED-594B67125D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08D3F9E-9188-4BA3-8873-DEF0C36A2E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08D3F9E-9188-4BA3-8873-DEF0C36A2E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08D3F9E-9188-4BA3-8873-DEF0C36A2E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08D3F9E-9188-4BA3-8873-DEF0C36A2E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
